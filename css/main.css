@@ -1,0 +1,93 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*header*/
+
+.header-menu {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+/*top-menu*/
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+/*nav-menu*/
+.nav-menu {
+    width: 399px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu li a{
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+/*icons*/
+.icons{
+    width: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*download */
+.download{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+.download a{
+    padding: 8px 14.5px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FD5545;
+}
+
+/*animation*/
+
+/*animation-bottom*/
+.animation-bottom::before{
+    content: '';
+    border-bottom: 1px solid #333333;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: all 1s ease;
+}
+.animation-bottom:hover::before{
+    width: 100%;
+    transition: all 1s ease;
+}
+/*contact-us*/
+.download:hover{
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+}
+.download a:hover{
+    color: #FFFFFF;
+}
+.animation-us{
+    transition: all 1s ease;
+}
+/*/header*/

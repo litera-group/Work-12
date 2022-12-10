@@ -92,6 +92,7 @@ body{
 }
 /*/header*/
 
+<<<<<<< HEAD
 /*section*/
 
 /*container*/
@@ -180,3 +181,61 @@ body{
     z-index: -1;
 }
 /*/section*/
+=======
+/*section-2*/
+.main{
+    width: 1440px;
+    height:544px;
+  }
+  .content{
+    height:350px;
+    margin: 150px 115px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .box-1{
+ width: 570px;
+  height:144px;
+  border: 1px solid #DDDDDD;
+  margin-top: 25px;
+  }
+  .box-1 a{
+    padding-top: 7px;
+padding-bottom: 7px;
+ display: flex;
+ justify-content: center;
+ float: left;
+ margin-left: 15px;
+ margin-right: 15px;
+ margin-top: 10px;
+  }
+  .box-1 h2{
+    width:250px;
+    height: 24px;
+    position: relative;
+    left: 0px;
+    top: 15px;
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: bold;
+  }
+  .box-1 p{
+   width:500px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-top: 20px;
+  }
+  .text-in-box{
+    width: 402px;
+margin-left: 50px;
+  }
+  /* end of section-2*/
+>>>>>>> 11ca753477d34a92a83469f96bd68750dba1726b

@@ -91,7 +91,153 @@ body{
     transition: all 1s ease;
 }
 /*/header*/
-
-/*footer*/
     
 /*/footer*/
+
+
+/*section*/
+
+/*container*/
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+/*left-part*/
+
+.left-part {
+    width: 497px;
+    margin-top: 210px;
+}
+.left-part h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+}
+/*description*/
+.description p {
+    margin-top: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+/*buttons*/
+.button {
+    width: 370px;
+    margin-top: 32px;
+    display: flex;
+}
+.button a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.white{
+    color: #FFFFFF;
+}
+/*bgc*/
+.bgc {
+    padding: 14px 58px 10px;
+    background-color: #FD5545;
+    border: 1px solid #FD5545;
+    border-radius: 3px;
+}
+
+/*right-part*/
+
+.right-part img{
+    margin-top: 118px;
+    margin-left: 100px;
+}
+
+/*animation*/
+.bgc:hover{
+    background-color: white;
+    border: 1px solid gray;
+    color: #FD5545;
+}
+.animation-white{
+    transition: all 1s ease;
+}
+.pink-color{
+    position: relative;
+    overflow: hidden;
+}
+.pink-color::before{
+    content: '';
+    width: 137%;
+    height: 172%;
+    top: -380px;
+    transform: rotate(18deg);
+    position: absolute;
+    background-color: #FFE3E0;
+    z-index: -1;
+}
+/*/section*/
+
+/*section-2*/
+.main{
+    width: 1440px;
+    height:544px;
+  }
+  .content{
+    height:350px;
+    margin: 150px 115px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .box-1{
+ width: 570px;
+  height:144px;
+  border: 1px solid #DDDDDD;
+  margin-top: 25px;
+  }
+  .box-1 a{
+    padding-top: 7px;
+padding-bottom: 7px;
+ display: flex;
+ justify-content: center;
+ float: left;
+ margin-left: 15px;
+ margin-right: 15px;
+ margin-top: 10px;
+  }
+  .box-1 h2{
+    width:250px;
+    height: 24px;
+    position: relative;
+    left: 0px;
+    top: 15px;
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: bold;
+  }
+  .box-1 p{
+   width:500px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-top: 20px;
+  }
+  .text-in-box{
+    width: 402px;
+margin-left: 50px;
+  }
+  /* end of section-2*/
+
